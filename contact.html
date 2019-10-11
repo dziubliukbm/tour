@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers|DM+Serif+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Carter+One|DM+Serif+Text|Kreon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/contact.css">
 
     
 </head>
@@ -26,34 +26,44 @@
                 </div>
                 <div class="navbar_navs">
                     <ul class="list">
-                        <a href="#" class="list-link"><li class="list-item">Home</li></a>
+                        <a href="./index.html" class="list-link"><li class="list-item">Home</li></a>
                         <a href="./charlestone.html" class="list-link"><li class="list-item">Charleston</li></a>
                         <a href="./Savannah.html" class="list-link"><li class="list-item">Savannah</li></a>
-                        <a href="./contact.html" class="list-link"><li class="list-item">Contact</li></a>
+                        <a href="#" class="list-link"><li class="list-item">Contact</li></a>
                     </ul>
                 </div>
             </div>
         </header>
-    <div class="container">
+   
+        <div class="bottom_section">
+                <div class="btm_text">
+                    <h3>Свяжитесь с нами</h3>
+                        <p class="upinput_text">Задайте вопросы и оставьте пожелания  
+                        </p>
+                    </div>
+                 <form action="#" id="contact-form" method="POST">
+                     <div class="contact-form-wrp">
+                        <div class="contact-inputs">
+                            <input 
+                            class="contact-input"
+                            type="text"
+                            name="name"  
+                            placeholder="YOUR NAME*"
+                            required
+                            >
+                            <input class="contact-input" type="email" name="email"  placeholder="YOUR E-MAIL*" required>
+                            <input class="contact-input" type="text" name="subject"  placeholder="SUBJECT*" >
+                        </div>
+                        <div class="contact-textarea-wrp">
+                     <textarea name ="body" cols="30" rows="10" placeholder="YOUR MASSAGE *"></textarea>
+                    </div>
+                </div>
+                    </form>
+                    <button class="contact-submit" type="submit">Отправить
+                    </button>
+                </div>
 
-        <div class="container__article-text">
-            История Юга <br>   унесеная ветром
-        </div>
-        <div class="split left">
-            <div class="innerDiv">
-          <!-- <h1 class="title">Charleston</h1> -->
-         
-          <!-- <a href="#" class="button">Read More</a> -->
-        </div>
-        </div>
-        <div class="page_text_wrapper">
-        <p class="page_text">  Южная Каролина и Джорджия, Чарльстон и Саванна, плантации и парки, всё это незабываемый Юг Америки, который каждый хочет увидеть собственными глазами. Я приглашаю вас окунуться в  300 летнюю историю страны, где много лет назад ходили кареты и экипажи.</p><p class="page_text">  Я расскажу вам о пиратах, индейских племенах  и рабстве. Мы пройдемся по самым старинным улочкам и посетим дома – музеи, где до сих пор можно встретить потомков самых богатых плантаторов Америки.</p>  <p class="page_text"> Я расскажу вам о старинных семействах с русскими корнями и, конечно же, об их плантациях. Прикоснитесь к истории Юга, которую много лет назад унесло прибрежным ветром перемен.</p>
-    </div>
-        
-      </div>
-      <footer>
-            <!-- <h2 class="footer_text">Join us in social madia</h2> -->
-            
+      <footer>            
           <div class="footer__wrapper">
               
             <div class="image__wrapper"><a href="#"><img class="socialnetwork_img" src="./assets/images/fb.png" alt="facebok"></a></div>

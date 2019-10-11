@@ -1,0 +1,303 @@
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+   html, body {
+    background-color: rgb( 199, 205, 212);
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+ 
+  .page_wrapper{
+    width: 100%;
+    height: 80%;  
+    margin: 0 auto;
+  }
+  header{
+    text-align: center;
+  }
+  .navbar {
+    margin: 0 auto;
+    height: 20%;
+    border-bottom:grey 2px solid;
+    padding-bottom: 25px;   
+    justify-content: space-between; 
+  }
+    .logo_img{
+    height: 230px;
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    max-height: 100%;
+    }
+    .logo{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    }
+    .list {
+    list-style:none;
+    padding: 0;
+    }
+   
+    .list-item{
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold; 
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-left: 6px solid grey;
+    border-right: 1px double grey;
+    box-shadow: #B4B5B5 2px 2px 2px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    }
+    .list-item:hover {
+       color: #fff; 
+    }
+    .list-link {
+      text-decoration: none;
+      color: black;
+    }
+    
+    
+    
+    .footer__wrapper{
+        box-sizing: border-box;
+        height: 20vh;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 10px double black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .footer_text{
+        text-align: center;
+        font-family: 'Kreon', serif;
+    }
+    .image__wrapper{
+        text-align: center;
+        align-items: center;
+  
+    
+    }
+    .socialnetwork_img{
+        width: 60px;
+        height: 60px;
+        border: 2px double #fff;
+    }
+
+  
+    .bottom_section {
+      margin: 0 auto;
+      background-color: rgb( 199, 205, 212);
+      height: 740px;
+      width: 90%;
+      }
+      form  {
+      margin: 0 auto;
+      }
+      .btm_text {
+      margin: 0 auto;
+      width: 300px;
+      }
+      h3 {
+      font-family: "Montserrat",sans-serif;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      padding-top: 50px;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      }
+      
+      .upinput_text {
+      color: #505050;
+      text-align: center;
+      margin-bottom: 65px;
+      font-style: italic;
+      font-family: "Droid-serif",sans-serif;
+      }
+      
+      .contact-form-wrp {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      }
+      .contact-inputs {
+      margin: 0 auto;  
+      height: 210px;
+      margin-bottom: 30px;
+      }
+      
+      .contact-textarea-wrp {
+        color: red;
+      }
+      
+      .contact-input  {
+      outline-offset: -2px;
+      padding-left: 20px;
+      margin-left: 1px;
+      width: 100%;
+      height: 50px;
+      margin-bottom: 30px;
+      font-family: "Montserrat",sans-serif;
+      font-weight: bold;
+      color: #9b9b9b;
+      font-size: 10px;
+      border-radius: 3px;
+      outline: 4px solid transparent;
+      border: none;
+      box-sizing: border-box;
+      transition: outline-color 0.1s;
+      }
+      
+      textarea {
+
+      outline-offset: -2px;
+      padding-left: 20px;
+      padding-top: 18px;
+      width: 100%;
+      height: 210px;
+      color: #9b9b9b;
+      font-family: "Montserrat",sans-serif;
+      font-weight: bold;
+      border-radius: 3px;
+      outline: 4px solid transparent;
+      box-sizing: border-box;
+      transition: outline-color 0.1s;
+      }
+      
+      .contact-submit
+      {
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      display: block;
+      height: 65px;
+      width: 245px;
+      margin: 30px auto;
+      background-color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: "Montserrat",sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      }
+      
+      input[type="email"]:focus:invalid,
+      textarea[name="body"]:focus:invalid,
+      input[name="name"]:focus:invalid {
+      outline-color: red;
+      transition: outline-color 5s;
+      }
+      
+      input[type="email"]:focus:valid,
+      textarea[name="body"]:focus:valid,
+      input[name="name"]:focus:valid {
+      outline-color: green;
+      transition: outline-color .4s;
+      }
+      
+      .contact-input,
+      .contact-textarea {
+        box-sizing: border-box;
+        width: 100%;
+        outline: 4px solid transparent;
+        outline-offset: -2px;
+        transition: outline-color 0.1s;
+      } 
+  
+  @media(min-width: 768px) {
+ 
+    .logo {
+      height: 120px;
+      margin: 0;  
+    }
+    img {
+      vertical-align: middle;
+    }
+    .logo_img{
+      height: 110px;
+      width: 160px;
+      max-width: 100%;
+      max-height: 100%;
+      }
+     .list-link {
+       margin-left: 15px;
+     } 
+    .list-item{
+      width: 100%;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .navbar_navs{
+      display: flex;
+    }
+    .navbar {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding: 0;
+    }
+    .list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .contact-textarea-wrp {
+      margin: 0 auto;
+      width: 445px;
+    }
+    /* textarea {
+      width: 60%;
+      } */
+    
+  }
+  
+  @media(min-width: 960px) {
+    h3 {
+      font-size: 28px;
+      padding: 0;
+    }
+    .upinput_text {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .navbar{
+      width: 80%;
+    }
+    
+    .page_text_wrapper {
+      margin: 30px auto;
+      width: 80%;
+    }
+    .footer__wrapper{
+        width: 80%;
+    
+        justify-content: center;
+    }
+    .socialnetwork_img{
+       margin: 20px;
+    }
+      
+      .title_cover{
+       width: 100px;
+       height: 40px;
+      }
+      
+  }
+  /* <-----------------end animation stuff-----------------> */
+  

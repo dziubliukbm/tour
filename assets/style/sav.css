@@ -1,13 +1,4 @@
-:root {
-    --container-bg-color: #333;
-    /* --left-bg-color: rgba(223, 39, 39, 0.7); */
-    --left-button-hover-color: rgba(161, 11, 11, 0.7);
-    /* --right-bg-color: rgba(43, 43, 43, 0.8); */
-    --right-button-hover-color: rgba(186, 194, 203, 1);
-    --hover-width: 75%;
-    --other-width: 25%;
-    --speed: 1000ms;
-  }
+
   .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
@@ -29,28 +20,24 @@
   }
   header{
     text-align: center;
-    /* border-top-style: dotted;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid; */
   }
   .navbar {
     margin: 0 auto;
     height: 20%;
-   
-    /* margin: 5px; */
-    /* border: 10px double black; */
     border-bottom:grey 2px solid;
-    padding-bottom: 25px;    
+    padding-bottom: 25px;   
+    justify-content: space-between; 
   }
     .logo_img{
-    height: 250px;
-    width: 320px;
+    height: 230px;
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    max-height: 100%;
     }
     .logo{
     text-align: center;
     align-items: center;
-    /* padding-top: 5%; */
     margin: 0 auto;
     }
     .list {
@@ -68,15 +55,13 @@
     font-family: sans-serif;
     border-left: 6px solid grey;
     border-right: 1px double grey;
-    /* border-bottom: 1px double grey; */
     box-shadow: #B4B5B5 2px 2px 2px;
     width: 60%;
     margin: 0 auto;
     margin-bottom: 10px;
-    
     }
     .list-item:hover {
-        
+       color: #fff; 
     }
     .list-link {
       text-decoration: none;
@@ -88,10 +73,10 @@
     text-align: center;
     font-family: 'Lobster', cursive;
     top: 10px;
-    font-size: 14px;
+    font-size: 22px;
     height: 160px;
     text-shadow: grey 2px 5px 5px;
-
+    margin: 0 auto;
     }
     .article_text{
       height: 80px;
@@ -101,11 +86,10 @@
       width: 80px;
       height: 4px;
       display: block; 
-      margin: 50px auto;
+      margin: 30px auto;
       background-color: black;
       }
     .split.left {
-      
       background: url('../images/Savannah/SAvMain.jpg') center center no-repeat;
       padding: 12px;
       background-repeat: no-repeat;
@@ -176,20 +160,8 @@
               text-align: center;
               background-color: #fff;
             }
-    /* .button {
-      display: block;
-      height: 2.5rem;
-      padding-top: 1.3rem;
-      width: 12rem;
-      text-align: center;
-      color: #fff;
-      border: #fff solid 0.2rem;
-      font-size: 1rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-decoration: none;
-      margin: 0 auto;
-    } */
+
+
     .footer__wrapper{
         box-sizing: border-box;
         height: 20vh;
@@ -217,16 +189,53 @@
         height: 60px;
         border: 2px double #fff;
     }
-/* animation stuff */
 
-  /*hover effects*/
-  .
+
   
   @media(min-width: 768px) {
     .split {
       width: 90%;
     }
-    
+    .logo {
+      height: 120px;
+      margin: 0;  
+    }
+    .logo_img{
+      height: 110px;
+      width: 160px;
+      max-width: 100%;
+      max-height: 100%;
+      }
+     .list-link {
+       margin-left: 15px;
+     } 
+    .list-item{
+      width: 100%;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .navbar_navs{
+      display: flex;
+    }
+    .navbar {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding: 0;
+    }
+    .list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .split.left {
+      margin: 0 auto;
+    }
+    .container__article-text { 
+      font-size: 28px;
+    }
   }
   
   @media(min-width: 960px) {
@@ -248,18 +257,14 @@
     .socialnetwork_img{
        margin: 20px;
     }
-    /* .page_text{
-       max-width: 40%;
-      } */
-      .navbar {
-        width: 100%;
+   
+      .navbar{
+        width: 80%;
       }
-      .list-item {
-        width: 30%;
-      }
+      
       .container__article-text{
-      height: 10%;
-      width: 80%;
+        height: 10%;
+        font-size: 32px;
       
       }
       .title_cover{
