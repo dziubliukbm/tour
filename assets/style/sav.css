@@ -20,6 +20,8 @@
   }
   header{
     text-align: center;
+    margin-bottom: 20px;
+
   }
   .navbar {
     margin: 0 auto;
@@ -74,21 +76,13 @@
     font-family: 'Lobster', cursive;
     top: 10px;
     font-size: 22px;
-    height: 160px;
     text-shadow: grey 2px 5px 5px;
     margin: 0 auto;
     }
     .article_text{
       height: 80px;
     }
-    .container__article-text::after {
-      content: '';
-      width: 80px;
-      height: 4px;
-      display: block; 
-      margin: 30px auto;
-      background-color: black;
-      }
+    
     .split.left {
       background: url('../images/Savannah/SAvMain.jpg') center center no-repeat;
       padding: 12px;
@@ -147,11 +141,8 @@
       width: 90%;
     }
     .page_text{
-      margin: 5px;
       text-indent: 1em; /* Отступ первой строки */
       text-align: justify;
-      align-items: center;
-      text-align: center;
       /* padding: 20px; */
             }
             .mySlides .w3-display-container{
@@ -233,9 +224,7 @@
     .split.left {
       margin: 0 auto;
     }
-    .container__article-text { 
-      font-size: 28px;
-    }
+    
   }
   
   @media(min-width: 960px) {
@@ -265,8 +254,8 @@
       .container__article-text{
         height: 10%;
         font-size: 32px;
-      
-      }
+        
+        }
       .title_cover{
        width: 100px;
        height: 40px;

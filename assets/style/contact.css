@@ -65,7 +65,14 @@
       color: black;
     }
     
-    
+    .container__article-text{
+      padding-top: 30px;  
+      text-align: center;
+      font-family: 'Lobster', cursive;
+      top: 10px;
+      font-size: 22px;
+      text-shadow: grey 2px 5px 5px;
+      }
     
     .footer__wrapper{
         box-sizing: border-box;
@@ -292,7 +299,11 @@
     .socialnetwork_img{
        margin: 20px;
     }
+    .container__article-text{
+      height: 10%;
+      font-size: 32px;
       
+      }
       .title_cover{
        width: 100px;
        height: 40px;
