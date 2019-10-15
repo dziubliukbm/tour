@@ -1,82 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   
-    <link href="https://fonts.googleapis.com/css?family=Bangers|DM+Serif+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link href="./assets/style/fonts.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|DM+Serif+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Carter+One|DM+Serif+Text|Kreon&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-    <link rel="stylesheet" href="./assets/style/contact.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=BangersDM+Serif+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/style/fonts.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=BangersDM+Serif+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=BangersCarter+OneDM+Serif+TextKreon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./assets/style/contact.css" />
+  </head>
+  <body>
     <div class="page_wrapper">
-        <header>
-            <div class="navbar">
-                <div class="logo">
-                    <img src="assets/images/logo3.png" class="logo_img">
-                </div>
-                <div class="container__article-text">
-                        История Юга унесеная ветром
-                    </div>
-                <div class="navbar_navs">
-                    <ul class="list">
-                        <a href="./index.html" class="list-link"><li class="list-item">Главная</li></a>
-                        <a href="./charlestone.html" class="list-link"><li class="list-item">Чарльстон</li></a>
-                        <a href="./Savannah.html" class="list-link"><li class="list-item">Саванна</li></a>
-                        <a href="#" class="list-link"><li class="list-item">Контакты</li></a>
-                    </ul>
-                </div>
-            </div>
-        </header>
-   
-        <div class="bottom_section">
-                <div class="btm_text">
-                    <h3>Свяжитесь с нами</h3>
-                        <p class="upinput_text">Задайте вопросы и оставьте пожелания  
-                        </p>
-                    </div>
-                 <form action="#" id="contact-form" method="POST">
-                     <div class="contact-form-wrp">
-                        <div class="contact-inputs">
-                            <input 
-                            class="contact-input"
-                            type="text"
-                            name="name"  
-                            placeholder="Имя*"
-                            required
-                            >
-                            <input class="contact-input" type="email" name="email"  placeholder="Ваш електронный адрес*" required>
-                            <input class="contact-input" type="text" name="subject"  placeholder="Тема*" >
-                        </div>
-                        <div class="contact-textarea-wrp">
-                     <textarea name ="body" cols="30" rows="10" placeholder="Ваше сообщение *"></textarea>
-                    </div>
-                </div>
-                    </form>
-                    <button class="contact-submit" type="submit">Отправить
-                    </button>
-                </div>
-
-      <footer>            
-          <div class="footer__wrapper">
-              
-            <div class="image__wrapper"><a href="#"><img class="socialnetwork_img" src="./assets/images/fb.png" alt="facebok"></a></div>
-                <div class="image__wrapper"><a href="#"><img class="socialnetwork_img" src="./assets/images/insta.png" alt="instagram"></a></div>
-                <div class="image__wrapper"><a href="#"><img class="socialnetwork_img" src="./assets/images/twitter.png" alt="instagram"></a></div>
-                
+      <header>
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/images/logo3.png" class="logo_img" alt="logo" />
           </div>
-          
+          <div class="container__article-text">
+            История Юга унесеная ветром
+          </div>
+          <div class="navbar_navs">
+            <ul class="list">
+              <li class="list-item">
+                <a href="./index.html" class="list-link">Главная</a>
+              </li>
+              <li class="list-item">
+                <a href="./charlestone.html" class="list-link">Чарльстон</a>
+              </li>
+              <li class="list-item">
+                <a href="./Savannah.html" class="list-link">Саванна</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="list-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="bottom_section">
+        <div class="btm_text">
+          <h3>Свяжитесь с нами</h3>
+          <p class="upinput_text">Задайте вопросы и оставьте пожелания</p>
+        </div>
+        <form action="#" id="contact-form" method="POST">
+          <div class="contact-form-wrp">
+            <div class="contact-inputs">
+              <input
+                class="contact-input"
+                type="text"
+                name="name"
+                placeholder="Имя*"
+                required
+              />
+              <input
+                class="contact-input"
+                type="email"
+                name="email"
+                placeholder="Ваш електронный адрес*"
+                required
+              />
+              <input
+                class="contact-input"
+                type="text"
+                name="subject"
+                placeholder="Тема*"
+              />
+            </div>
+            <div class="contact-textarea-wrp">
+              <textarea
+                name="body"
+                cols="30"
+                rows="10"
+                placeholder="Ваше сообщение *"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+        <button class="contact-submit" type="submit">Отправить</button>
+      </div>
+
+      <footer>
+        <div class="footer__wrapper">
+          <div class="image__wrapper">
+            <a href="#"
+              ><img
+                class="socialnetwork_img"
+                src="./assets/images/fb.png"
+                alt="facebok"
+            /></a>
+          </div>
+          <div class="image__wrapper">
+            <a href="#"
+              ><img
+                class="socialnetwork_img"
+                src="./assets/images/insta.png"
+                alt="instagram"
+            /></a>
+          </div>
+          <div class="image__wrapper">
+            <a href="#"
+              ><img
+                class="socialnetwork_img"
+                src="./assets/images/twitter.png"
+                alt="instagram"
+            /></a>
+          </div>
+        </div>
       </footer>
     </div>
-      <script src="./assets/js/app.js"></script>
-</body>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
