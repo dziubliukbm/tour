@@ -71,7 +71,7 @@ header {
   margin: 0 auto;
   margin-bottom: 10px;
 }
-.list-item:hover {
+.list-item:hover .list-link {
   color: #fff;
 }
 .list-link {
